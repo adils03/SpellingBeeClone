@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.Double?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="902.0" style="-fx-background-color: #A3EA5D;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="erciyes.edu.tr.kelimeoyunu.kelimeoyunuController">
+   <children>
+      <ImageView fx:id="bee" fitHeight="91.0" fitWidth="93.0" layoutX="-3.0" layoutY="32.0" onMouseClicked="#onBeeClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../pngs/02ce7945c01a4d62f78e480ca9c51f00.gif" />
+         </image>
+      </ImageView>
+      <Polygon fx:id="btn6" fill="#e1e442" layoutX="242.0" layoutY="161.0" onMousePressed="#onMousePressed6" onMouseReleased="#onMouseReleased6" stroke="#b1992b" strokeType="INSIDE" strokeWidth="5.0">
+        <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="30.0" />
+
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+
+            <Double fx:value="50.0" />
+            <Double fx:value="30.0" />
+
+            <Double fx:value="50.0" />
+            <Double fx:value="-30.0" />
+
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+
+            <Double fx:value="-50.0" />
+            <Double fx:value="-30.0" />
+
+        </points>
+      </Polygon>
+      <Polygon fx:id="middleBtn" fill="#e1e442" layoutX="192.0" layoutY="251.0" onMousePressed="#onMousePressedm" onMouseReleased="#onMouseReleasedm" stroke="#b03f2c" strokeType="INSIDE" strokeWidth="5.0">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="30.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="30.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-30.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-30.0" />
+         </points>
+      </Polygon>
+      <Polygon fx:id="btn2" fill="#e1e442" layoutX="92.0" layoutY="251.0" onMousePressed="#onMousePressed2" onMouseReleased="#onMouseReleased2" stroke="#b1992b" strokeType="INSIDE" strokeWidth="5.0">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="30.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="30.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-30.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-30.0" />
+         </points>
+      </Polygon>
+      <Polygon fx:id="btn1" fill="#e1e442" layoutX="142.0" layoutY="161.0" onMousePressed="#onMousePressed1" onMouseReleased="#onMouseReleased1" stroke="#b1992b" strokeType="INSIDE" strokeWidth="5.0">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="30.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="30.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-30.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-30.0" />
+         </points>
+      </Polygon>
+      <Polygon fx:id="btn5" fill="#e1e442" layoutX="292.0" layoutY="251.0" onMousePressed="#onMousePressed5" onMouseReleased="#onMouseReleased5" stroke="#b1992b" strokeType="INSIDE" strokeWidth="5.0">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="30.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="30.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-30.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-30.0" />
+         </points>
+      </Polygon>
+      <Polygon fx:id="btn4" fill="#e1e442" layoutX="242.0" layoutY="340.0" onMousePressed="#onMousePressed4" onMouseReleased="#onMouseReleased4" stroke="#b1992b" strokeType="INSIDE" strokeWidth="5.0">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="30.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="30.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-30.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-30.0" />
+         </points>
+      </Polygon>
+      <Polygon fx:id="btn3" fill="#e1e442" layoutX="142.0" layoutY="340.0" onMousePressed="#onMousePressed3" onMouseReleased="#onMouseReleased3" stroke="#b1992b" strokeType="INSIDE" strokeWidth="5.0">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="30.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="30.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-30.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-30.0" />
+         </points>
+      </Polygon>
+      <Button fx:id="tickButton" layoutX="242.0" layoutY="424.0" mnemonicParsing="false" onMouseClicked="#onTickClicked">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../pngs/checkmark-48.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="shuffleButton" layoutX="164.0" layoutY="400.0" mnemonicParsing="false" onMouseClicked="#onShufflePressed">
+         <graphic>
+            <ImageView fx:id="shuffleButton" fitHeight="40.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../pngs/shuffle-48.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="deleteButton" layoutX="86.0" layoutY="424.0" mnemonicParsing="false" onMouseClicked="#onDeleteClicked">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../pngs/delete-3-64.gif" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <ImageView fitHeight="372.0" fitWidth="433.0" layoutX="430.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../pngs/wordcontainer.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="skorLbl" layoutX="660.0" layoutY="17.0" prefHeight="35.0" prefWidth="129.0" text="SKOR:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="sonucLbl" alignment="TOP_LEFT" layoutX="460.0" layoutY="87.0" prefHeight="302.0" prefWidth="155.0">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="lbl1" layoutX="136.0" layoutY="148.0" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl6" layoutX="236.0" layoutY="148.0" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl2" layoutX="87.0" layoutY="236.0" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl5" layoutX="287.0" layoutY="236.0" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl4" layoutX="236.0" layoutY="327.0" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl3" layoutX="136.0" layoutY="325.0" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblm" layoutX="183.0" layoutY="236.0" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="kelimeLbl" layoutX="88.0" layoutY="22.0" onMouseClicked="#onKelimeLblClicked" prefHeight="55.0" prefWidth="209.0" text="Yaz veya tıkla">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextArea>
+      <ImageView fitHeight="137.0" fitWidth="129.0" layoutX="386.0" layoutY="425.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../pngs/c2e9cc1da429b1af111d6ad752aaaf74.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="789.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../pngs/kisspng-pink-flowers-clip-art-simple-flower-cliparts-5a7c0d8c5ad8b9.3265438215180793723721.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="212.0" layoutY="496.0" mnemonicParsing="false" onMouseClicked="#onYeniClicked" prefHeight="40.0" prefWidth="129.0" text="Yeni Harfler">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="manuelLbl" layoutX="50.0" layoutY="496.0" onAction="#onManuelEntered" onMouseClicked="#onManuelClicked" prefHeight="40.0" prefWidth="129.0" text="Ben yazayım">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label fx:id="bildirimLbl" layoutX="515.0" layoutY="17.0" prefHeight="35.0" prefWidth="181.0" textAlignment="CENTER" textFill="#b92121" />
+      <Label fx:id="skorLbl" layoutX="725.0" layoutY="20.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="sonucLbl2" alignment="TOP_LEFT" layoutX="616.0" layoutY="87.0" prefHeight="302.0" prefWidth="155.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
